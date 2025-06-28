@@ -1,0 +1,188 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.login-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+}
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+/* Login2 css */
+
+ .login-container {
+  width: 100%;
+  max-width: 400px;
+}
+.logo {
+  text-align: center;
+  margin-bottom: 32px;
+}
+.logo h2 {
+  font-size: 48px;
+  font-weight: bold;
+  color: #2196f3;
+}
+.logo-circle {
+  display: inline-block;
+  width: 48px;
+  height: 48px;
+  border: 4px solid #2196f3;
+  border-radius: 50%;
+  margin-right: 4px;
+  vertical-align: middle;
+}
+.form-group {
+  margin-bottom: 16px;
+}
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 12px 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+.password-field {
+  position: relative;
+}
+.password-toggle {
+  position: absolute;
+  right: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #777;
+  cursor: pointer;
+}
+.login-button {
+  width: 100%;
+  background-color: #2196f3;
+  color: white;
+  border: none;
+  border-radius: 9999px;
+  padding: 12px 16px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  margin-top: 16px;
+  margin-bottom: 24px;
+}
+.login-button:hover {
+  background-color: #1e88e5;
+}
+.help-text, .signup-text, .forgot-text {
+  text-align: center;
+  margin-bottom: 16px;
+  color: #555;
+}
+a {
+  color: #2196f3;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+.divider {
+  display: flex;
+  align-items: center;
+  margin: 24px 0;
+}
+.divider-line {
+  flex-grow: 1;
+  height: 1px;
+  background-color: #ddd;
+}
+.divider-text {
+  padding: 0 16px;
+  color: #777;
+}
+.social-login {
+  margin-top: 16px;
+}
+.social-button {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 16px;
+  border-radius: 9999px;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 12px;
+  cursor: pointer;
+  border: 1px solid #ddd;
+}
+.twitter-button {
+  background-color: #333;
+  color: white;
+}
+.twitter-button:hover {
+  background-color: #222;
+}
+.google-button {
+  background-color: white;
+  color: #333;
+}
+.google-button:hover {
+  background-color: #f5f5f5;
+}
+.social-icon {
+  margin-right: 8px;
+}
+.help-text .signup-text .forgot-text {
+  text-align: left;
+}
+
+.login-container {
+  text-align: center;
+}
+@media (max-width: 768px) {
+  .container {
+      flex-direction: column;
+  }
+
+  .left-side {
+      min-height: 200px;
+  }
+
+  .left-content h1 {
+      font-size: 28px;
+  }
+}
