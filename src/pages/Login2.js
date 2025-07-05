@@ -73,42 +73,104 @@ const Login2 = () => {
 
 
     ///now itatali natin yung variable sa input ta
-    return <div className="login-container">
-    <div className="logo">
-      <img src={logo} width="330px" height="80px" />
-    </div>
-    <form>
-      <div className="form-group">
-        <input type="text" placeholder="username" value={username}/>
+    return <>
+
+    <div className='container'>
+      <div className="hero-section">
+        <div className="hero-content">
+          <h1 className="hero-title">
+          </h1>
+        </div>
+        <div className="hero-image-container">
+          <div className="hero-image-wrapper">
+        
+          </div>
+        </div>
       </div>
-      <div className="form-group password-field">
-        <input type="password" placeholder="password" value={password}/>
-      </div>
-      <button type="button" defaultvalue="Sign In" className="login-button" onClick={logIn}>
-        Login
-      </button>
-    </form>
-    <div className="help-text">
-      Visit <a href="#">Help Center</a> for any help if you are not able to login
-      with your existing account.
+
+
+        <div className='login-section'>
+          <div className="login-container">
+            <div className="logo">
+              <img src={logo} width="330px" height="80px" />
+                </div>
+                <form>
+                  <div className="form-group">
+                    <input type="text" placeholder="username" value={username}/>
+                  </div>
+                  <div className="form-group password-field">
+                    <input type="password" placeholder="password" value={password}/>
+                  </div>
+                  <button type="button" defaultvalue="Sign In" className="login-button" onClick={logIn}>
+                    Login
+                  </button>
+                </form>
+                <div className="help-text">
+                  Visit <a href="#">Help Center</a> for any help if you are not able to login
+                  with your existing account.
+                </div>
+                <div className="signup-text">
+                  Don't have an account yet? <a href="#">Sign up here</a>.
+                </div>
+                <div className="forgot-text">
+                  <a href="#">Forgot password?</a>
+                </div>
+                <div className="divider">
+                  <div className="divider-line" />
+                  <span className="divider-text">Or</span>
+                  <div className="divider-line" />
+                </div>
+                <div className="social-login">
+                  <button className="social-button twitter-button">
+                    Sign in with Twitter
+                  </button>
+                  <button className="social-button google-button">Sign in with Google</button>
+            </div>
+          </div>   
+        </div>
+  </div>
+  <div class="footeros">
+    <div class="container">
+        <div class="footer-top">
+            <div class="logo-section">
+                
+                <p>&copy; 2023 OnlySub. All rights reserved.</p>
+            </div>
+            
+            <div class="connect-section">
+                <h3>Connect With Us</h3>
+                <div class="social-links">
+                    <a href="https://instagram.com/onlysub" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-instagram"></i> Instagram
+                    </a>
+                    <a href="https://facebook.com/onlysub" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-facebook"></i> Facebook
+                    </a>
+                    <a href="https://twitter.com/onlysub" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-twitter"></i> Twitter
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <div class="policy-links">
+                <a href="/terms-of-service">Terms of Service</a>
+                <a href="/privacy-policy">Privacy Policy</a>
+                <a href="/return-refund-policy">Return & Refund Policy</a>
+                <a href="/complaint-policy">Complaint Policy & Procedures</a>
+                <a href="/help-support">Help & Support</a>
+                <a href="/dmca" class="dmca-link">DMCA Protection</a>
+            </div>
+        </div>
     </div>
-    <div className="signup-text">
-      Don't have an account yet? <a href="#">Sign up here</a>.
+    
+    <div class="dmca-badge">
+        <a href="/dmca" target="_blank" rel="noopener noreferrer">
+            
+        </a>
     </div>
-    <div className="forgot-text">
-      <a href="#">Forgot password?</a>
-    </div>
-    <div className="divider">
-      <div className="divider-line" />
-      <span className="divider-text">Or</span>
-      <div className="divider-line" />
-    </div>
-    <div className="social-login">
-      <button className="social-button twitter-button">
-        Sign in with Twitter
-      </button>
-      <button className="social-button google-button">Sign in with Google</button>
-    </div>
-  </div>    
+</div>
+  </> 
 };
 export default Login2;

@@ -1,1 +1,176 @@
 .page .header{background:pink}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  overflow: hidden;
+  margin: 0;
+
+}
+.container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+.hero-section {
+  background-color: #2AA6DE;
+  width: 66.666%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem;
+  position: relative;
+}
+.hero-content {
+  text-align: center;
+  max-width: 42rem;
+  z-index: 10;
+}
+.hero-title {
+  color: white;
+  font-size: 3.75rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  line-height: 1.2;
+}
+.login-section {
+  width: 33.333%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem 3rem;
+}
+.login-container {
+  width: 100%;
+  max-width: 28rem;
+}
+.logo-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.footeros {
+        background-color: #eaf4fe;
+        color: #030202;
+        padding: 40px 0 20px;
+        position: relative;
+    }
+
+    .container {
+        width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 15px;
+    }
+
+    .footer-top {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-bottom: 30px;
+    }
+
+    .logo-section {
+        flex: 1;
+        min-width: 250px;
+        margin-bottom: 20px;
+    }
+
+    .onlysub-logo {
+        width: 200px;
+        height: auto;
+        margin-bottom: 15px;
+    }
+
+    .connect-section {
+        flex: 2;
+        min-width: 300px;
+    }
+
+    .connect-section h3 {
+        font-size: 18px;
+        margin-bottom: 15px;
+        color: #f0c674;
+    }
+
+    .social-links a {
+        display: block;
+        margin-bottom: 10px;
+        color: #fff;
+        text-decoration: none;
+        font-size: 16px;
+        transition: color 0.3s;
+    }
+
+    .social-links a:hover {
+        color: #f0c674;
+    }
+
+    .social-links i {
+        margin-right: 8px;
+        font-size: 18px;
+    }
+
+    .footer-bottom {
+        border-top: 1px solid #333;
+        padding-top: 20px;
+    }
+
+    .policy-links {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .policy-links a {
+        margin: 0 15px 10px;
+        color: #ccc;
+        text-decoration: none;
+        font-size: 14px;
+        transition: color 0.3s;
+    }
+
+    .policy-links a:hover {
+        color: #f0c674;
+    }
+
+    .dmca-link {
+        color: #f0c674;
+    }
+
+    .dmca-badge {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .dmca-badge img {
+        border: 1px solid #444;
+        border-radius: 4px;
+    }
+
+    @media (max-width: 768px) {
+        .footer-top {
+            flex-direction: column;
+        }
+        
+        .logo-section, .connect-section {
+            margin-bottom: 30px;
+            width: 100%;
+        }
+        
+        .dmca-badge {
+            position: relative;
+            top: 0;
+            right: 0;
+            margin: 20px auto;
+            justify-content: center;
+        }
+    }
