@@ -3,9 +3,7 @@
 body {
   width: 100%;
   height: 100vh;
-  display: flex;
-  overflow: hidden;
-  margin: 0;
+  margin: 0px 0px 0px;
 
 }
 .container {
@@ -13,31 +11,21 @@ body {
   width: 100%;
   height: 100%;
   margin: 0;
+  padding: 0;
 }
 .hero-section {
   background-color: #2AA6DE;
-  width: 66.666%;
+  width: 66%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 1.5rem;
   position: relative;
-}
-.hero-content {
-  text-align: center;
-  max-width: 42rem;
-  z-index: 10;
-}
-.hero-title {
-  color: white;
-  font-size: 3.75rem;
-  font-weight: 700;
-  margin-bottom: 1rem;
-  line-height: 1.2;
+  margin: 16px 0px 16px;
 }
 .login-section {
-  width: 33.333%;
+  width: 34%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -63,9 +51,12 @@ body {
 
     .container {
         width: 100%;
-        max-width: 1200px;
-        margin: 0 auto;
-        padding: 0 15px;
+        max-width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding: 0px;
+        padding-left: 15px;
+
     }
 
     .footer-top {
@@ -95,13 +86,14 @@ body {
     .connect-section h3 {
         font-size: 18px;
         margin-bottom: 15px;
-        color: #f0c674;
+        color: #000000;
+
     }
 
     .social-links a {
         display: block;
         margin-bottom: 10px;
-        color: #fff;
+        color: #000000;
         text-decoration: none;
         font-size: 16px;
         transition: color 0.3s;
@@ -116,20 +108,16 @@ body {
         font-size: 18px;
     }
 
-    .footer-bottom {
-        border-top: 1px solid #333;
-        padding-top: 20px;
-    }
 
     .policy-links {
-        display: flex;
+        display: inline;
         flex-wrap: wrap;
         justify-content: center;
     }
 
     .policy-links a {
         margin: 0 15px 10px;
-        color: #ccc;
+        color: #000000;
         text-decoration: none;
         font-size: 14px;
         transition: color 0.3s;

@@ -76,16 +76,8 @@ const Login2 = () => {
     return <>
 
     <div className='container'>
-      <div className="hero-section">
-        <div className="hero-content">
-          <h1 className="hero-title">
-          </h1>
-        </div>
-        <div className="hero-image-container">
-          <div className="hero-image-wrapper">
-        
-          </div>
-        </div>
+       <div className="hero-section">
+
       </div>
 
 
@@ -134,9 +126,25 @@ const Login2 = () => {
         <div class="footer-top">
             <div class="logo-section">
                 
-                <p>&copy; 2023 OnlySub. All rights reserved.</p>
+                <p>&copy; 2025 OnlySub. All rights reserved.</p>
             </div>
             
+            {/* <div class="connect-section">
+                <h3>Connect With Us</h3>
+                <div class="social-links">
+                    <a href="https://instagram.com/onlysub" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-instagram"></i> Instagram
+                    </a>
+                    <a href="https://facebook.com/onlysub" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-facebook"></i> Facebook
+                    </a>
+                    <a href="https://twitter.com/onlysub" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-twitter"></i> Twitter
+                    </a>
+                </div>
+            </div> */}
+        </div>
+        
             <div class="connect-section">
                 <h3>Connect With Us</h3>
                 <div class="social-links">
@@ -151,11 +159,10 @@ const Login2 = () => {
                     </a>
                 </div>
             </div>
-        </div>
         
         <div class="footer-bottom">
             <div class="policy-links">
-                <a href="/terms-of-service">Terms of Service</a>
+                <a className="block"href="/terms-of-service">Terms of Service</a>
                 <a href="/privacy-policy">Privacy Policy</a>
                 <a href="/return-refund-policy">Return & Refund Policy</a>
                 <a href="/complaint-policy">Complaint Policy & Procedures</a>
